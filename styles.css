@@ -1,0 +1,85 @@
+body{
+    background: lightcyan;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: monospace;
+}
+
+
+.container{
+    margin-top: 12.5rem;
+    /* display: flex; */
+    width: 85%;
+    max-width: 400px;
+    background: rgba(253, 253, 253, 0.6);
+    border-radius: 15%;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(24,26,26,1);
+-moz-box-shadow: 10px 10px 10px 0px rgba(24,26,26,1);
+box-shadow: 10px 10px 10px 0px rgba(24,26,26,1);
+color: darkgreen;
+
+}
+
+#heading {
+    margin: 5px;
+    font-size: 20px;
+    color: darkgreen;
+  }
+
+
+.rating-container{
+    display: flex;
+    padding: 15px;
+}
+
+.rating{
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 5px;
+   
+}
+
+
+.rating:hover,
+.rating.active
+{
+  background: darkseagreen;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  transition: all 300ms ease;
+}
+
+
+
+
+.btn {
+    background-color: darkcyan;
+    color: aliceblue;
+    border: 0;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 12px 30px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
+  }
+
+
+
+
+
+
+
+
+.rating img{
+    width:40px;
+}
